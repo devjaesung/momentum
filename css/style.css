@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
+
+#log-btn{
+    color: #000;
+}
+
+#login-container{
+    width: 250px;
+    margin: 300px auto;
+}
+input{
+    color: #000;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.profile-img img{
+    width: 200px;
+    height: 200px;
+}
+#cg{
+    display: flex;
+    justify-content: space-between;
+}
+#clock{
+    width: 120px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+#quote{
+    margin: 100px auto;
+    margin-bottom: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#quote span:first-child{
+    font-size: 32px;
+}
+#quote span:last-child{
+    margin-top: 10px;
+    font-size: 18px;
+}
+#todoContainer{
+    width: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#weather{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+#log-out{
+    position: absolute;
+    top: 50px;
+    color: #666;
+}
